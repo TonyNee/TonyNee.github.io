@@ -1413,7 +1413,7 @@ body {
   background: var(--global-bg);
   color: var(--font-color);
   font-size: var(--global-font-size);
-  font-family: MV Boli, "黑体", "华文中宋", "Microsoft YaHei", "宋体";
+  font-family: Times New Roman, "华文中宋", "黑体", "Microsoft YaHei", "宋体", MV Boli;
   line-height: 2;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
