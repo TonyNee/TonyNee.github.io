@@ -1,0 +1,44 @@
+- class_name: 华中科技大学
+  class_desc: 又来统一身份认证啦
+  link_list:
+    - name: 华中科技大学
+      link: https://www.hust.edu.cn/
+      avatar: https://s2.loli.net/2023/08/28/KOhcsqaX2rxynSB.png
+      # avatar: https://wx2.sinaimg.cn/small/006iUx3mly1hhdh6dxlwhj309d074gmf.jpg
+      descr: HUST学校官方网站
+    - name: 光学与电子信息学院
+      link: http://oei.hust.edu.cn/
+      avatar: https://s2.loli.net/2023/08/28/n9lmKHLBR4QqsNG.png
+      descr: OEI学院官方网站
+    - name: HUST研究生院
+      link: http://gs.hust.edu.cn/
+      avatar: https://s2.loli.net/2023/08/28/ckpKOF5AQSLeysz.png
+      descr: 研究生综合教育系统
+
+- class_name: 自律网站
+  class_desc: 宁要累死自己，也要卷死同学
+  link_list:
+    - name: Youtube
+      link: https://www.youtube.com/
+      avatar: https://i.loli.net/2020/05/14/9ZkGg8v3azHJfM1.png
+      descr: 视频网站
+    - name: Weibo
+      link: https://www.weibo.com/
+      avatar: https://i.loli.net/2020/05/14/TLJBum386vcnI1P.png
+      descr: 中国最大社交分享平台
+    - name: Twitter
+      link: https://twitter.com/
+      avatar: https://i.loli.net/2020/05/14/5VyHPQqR6LWF39a.png
+      descr: 社交分享平台
+    - name: CSDN
+      link: https://blog.csdn.net/Helmholtz_optic?type=blog
+      avatar: https://s2.loli.net/2023/08/29/pSIVhZvRKf8Hz5l.png
+      descr: 专业开发者社区
+    - name: LeetCode
+      link: https://leetcode.cn/u/wizardly-karevtg/
+      avatar: https://s2.loli.net/2023/08/29/ikFdrmW7JwYoOhv.png
+      descr: 全球极客挚爱的技术成长平台
+    - name: CoderUtil
+      link: https://www.coderutil.com/
+      avatar: https://s2.loli.net/2023/08/29/LcPzCUr8XgkBG1x.png
+      descr: 程序员盒子
