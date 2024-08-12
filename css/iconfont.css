@@ -1,0 +1,54 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 4230103 */
+  src: url('//at.alicdn.com/t/c/font_4230103_kg18e7vjgbi.woff2?t=1694260842495') format('woff2'),
+       url('//at.alicdn.com/t/c/font_4230103_kg18e7vjgbi.woff?t=1694260842495') format('woff'),
+       url('//at.alicdn.com/t/c/font_4230103_kg18e7vjgbi.ttf?t=1694260842495') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 19px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-mianxingmihoutao:before {
+  content: "\e623";
+}
+
+.icon-mianxingniuyouguo:before {
+  content: "\e624";
+}
+
+.icon-mianxingningmeng:before {
+  content: "\e625";
+}
+
+.icon-mianxinghamigua:before {
+  content: "\e621";
+}
+
+.icon-mianxingchengzi:before {
+  content: "\e627";
+}
+
+.icon-mianxingxigua:before {
+  content: "\e628";
+}
+
+.icon-mianxingbaixiangguo:before {
+  content: "\e629";
+}
+
+.icon-mianxingcaomei:before {
+  content: "\e62a";
+}
+
+.icon-bilibili:before {
+  content: "\e609";
+}
+
+.icon-gitee-fill-round:before {
+  content: "\e686";
+}
