@@ -197,7 +197,7 @@
 <h1 id="2-准备材料和知识"><a href="#2-准备材料和知识" class="headerlink" title="2. 准备材料和知识"></a>2. 准备材料和知识</h1><h2 id="（1）AGX内核源码"><a href="#（1）AGX内核源码" class="headerlink" title="（1）AGX内核源码"></a>（1）AGX内核源码</h2><p>NVIDIA Jetson AGX系列是专为嵌入式人工智能应用而设计的开发板，它具有自己特定的硬件架构和外设。为了适配硬件平台，我们不能使用普通的kernel内核源码。</p>
 <p>根据AGX的Linux内核版本，在NVIDIA官网下载对应的Linux内核源码。</p>
 <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">mv@ubuntu:~$ uname -a</span><br><span class="line">Linux ubuntu 5.10.104-tegra #1 SMP PREEMPT Sun Mar 19 07:55:28 PDT 2023 aarch64 aarch64 aarch64 GNU/Linux</span><br><span class="line">mv@ubuntu:~$ head -n 1 /etc/nv_tegra_release</span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">R35 (release), REVISION: 3.1, GCID: 32827747, BOARD: t186ref, EABI: aarch64, DATE: Sun Mar 19 15:19:21 UTC 2023</span></span><br></pre></td></tr></table></figure>
-<p>这里使用的AGX版本是R35，内核版本是Linux 5.10.104。于是在NVIDIA DEVELOPER下载中心（需要注意的是NVIDIA开发者的.cn网站不提供下载页面，访问后提示找不到页面，这里给出的是NVIDIA开发者.com的网站：Jetson Download Center | NVIDIA Developer）搜索kernel，并选择对应的版本（R35.1），如图2所示。点击下载跳转到对应的下载页面，如图3所示。</p>
+<p>这里使用的AGX版本是R35，内核版本是Linux 5.10.104。于是在NVIDIA DEVELOPER下载中心（需要注意的是NVIDIA开发者的.cn网站不提供下载页面，访问后提示找不到页面，这里给出的是NVIDIA开发者.com的网站：<a target="_blank" rel="noopener" href="https://developer.nvidia.com/embedded/downloads">Jetson Download Center | NVIDIA Developer</a>）搜索kernel，并选择对应的版本（R35.1），如图2所示。点击下载跳转到对应的下载页面，如图3所示。</p>
 <center class="half">
     <img src="/pic/csbasic/linux/1.03.png"/>
 </center>
